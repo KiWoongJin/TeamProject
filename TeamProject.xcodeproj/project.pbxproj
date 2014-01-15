@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65412CA31886E5A100B512AC /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65412CA21886E5A100B512AC /* SelectViewController.m */; };
+		65412CA61886FABC00B512AC /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65412CA51886FABC00B512AC /* ContentsViewController.m */; };
+		65412CA918870D5E00B512AC /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65412CA818870D5E00B512AC /* MyPageViewController.m */; };
+		65412CB21887152D00B512AC /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAA1887152D00B512AC /* photo1.jpg */; };
+		65412CB31887152D00B512AC /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAB1887152D00B512AC /* photo2.jpg */; };
+		65412CB41887152D00B512AC /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAC1887152D00B512AC /* photo3.jpg */; };
+		65412CB51887152D00B512AC /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAD1887152D00B512AC /* photo4.jpg */; };
+		65412CB61887152D00B512AC /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAE1887152D00B512AC /* photo5.jpg */; };
+		65412CB71887152D00B512AC /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CAF1887152D00B512AC /* photo6.jpg */; };
+		65412CB81887152D00B512AC /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CB01887152D00B512AC /* photo7.jpg */; };
+		65412CB91887152D00B512AC /* photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65412CB11887152D00B512AC /* photo8.jpg */; };
 		659170ED1886CE650047EBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659170EC1886CE650047EBFB /* Foundation.framework */; };
 		659170EF1886CE650047EBFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659170EE1886CE650047EBFB /* CoreGraphics.framework */; };
 		659170F11886CE650047EBFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659170F01886CE650047EBFB /* UIKit.framework */; };
@@ -34,6 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65412CA11886E5A100B512AC /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		65412CA21886E5A100B512AC /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		65412CA41886FABC00B512AC /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		65412CA51886FABC00B512AC /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		65412CA718870D5E00B512AC /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
+		65412CA818870D5E00B512AC /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
+		65412CAA1887152D00B512AC /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		65412CAB1887152D00B512AC /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		65412CAC1887152D00B512AC /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		65412CAD1887152D00B512AC /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		65412CAE1887152D00B512AC /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
+		65412CAF1887152D00B512AC /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
+		65412CB01887152D00B512AC /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo7.jpg; sourceTree = "<group>"; };
+		65412CB11887152D00B512AC /* photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo8.jpg; sourceTree = "<group>"; };
 		659170E91886CE650047EBFB /* TeamProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659170EC1886CE650047EBFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		659170EE1886CE650047EBFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +144,12 @@
 				659171021886CE650047EBFB /* ViewController.m */,
 				659171041886CE650047EBFB /* Images.xcassets */,
 				659170F31886CE650047EBFB /* Supporting Files */,
+				65412CA11886E5A100B512AC /* SelectViewController.h */,
+				65412CA21886E5A100B512AC /* SelectViewController.m */,
+				65412CA41886FABC00B512AC /* ContentsViewController.h */,
+				65412CA51886FABC00B512AC /* ContentsViewController.m */,
+				65412CA718870D5E00B512AC /* MyPageViewController.h */,
+				65412CA818870D5E00B512AC /* MyPageViewController.m */,
 			);
 			path = TeamProject;
 			sourceTree = "<group>";
@@ -126,6 +157,14 @@
 		659170F31886CE650047EBFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65412CAA1887152D00B512AC /* photo1.jpg */,
+				65412CAB1887152D00B512AC /* photo2.jpg */,
+				65412CAC1887152D00B512AC /* photo3.jpg */,
+				65412CAD1887152D00B512AC /* photo4.jpg */,
+				65412CAE1887152D00B512AC /* photo5.jpg */,
+				65412CAF1887152D00B512AC /* photo6.jpg */,
+				65412CB01887152D00B512AC /* photo7.jpg */,
+				65412CB11887152D00B512AC /* photo8.jpg */,
 				659170F41886CE650047EBFB /* TeamProject-Info.plist */,
 				659170F51886CE650047EBFB /* InfoPlist.strings */,
 				659170F81886CE650047EBFB /* main.m */,
@@ -228,6 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65412CB81887152D00B512AC /* photo7.jpg in Resources */,
+				65412CB71887152D00B512AC /* photo6.jpg in Resources */,
+				65412CB91887152D00B512AC /* photo8.jpg in Resources */,
+				65412CB61887152D00B512AC /* photo5.jpg in Resources */,
+				65412CB51887152D00B512AC /* photo4.jpg in Resources */,
+				65412CB41887152D00B512AC /* photo3.jpg in Resources */,
+				65412CB31887152D00B512AC /* photo2.jpg in Resources */,
+				65412CB21887152D00B512AC /* photo1.jpg in Resources */,
 				659171051886CE650047EBFB /* Images.xcassets in Resources */,
 				659170F71886CE650047EBFB /* InfoPlist.strings in Resources */,
 				659171001886CE650047EBFB /* Main.storyboard in Resources */,
@@ -249,7 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65412CA31886E5A100B512AC /* SelectViewController.m in Sources */,
 				659171031886CE650047EBFB /* ViewController.m in Sources */,
+				65412CA61886FABC00B512AC /* ContentsViewController.m in Sources */,
+				65412CA918870D5E00B512AC /* MyPageViewController.m in Sources */,
 				659170FD1886CE650047EBFB /* AppDelegate.m in Sources */,
 				659170F91886CE650047EBFB /* main.m in Sources */,
 			);
@@ -460,6 +510,7 @@
 				6591711D1886CE650047EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6591711E1886CE650047EBFB /* Build configuration list for PBXNativeTarget "TeamProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +519,7 @@
 				659171201886CE650047EBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
